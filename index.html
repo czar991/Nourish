@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nourishs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <img src="icons/logoMAIN.svg" alt="logo" />
+        </div>
+        <div class="header__content">
+          <div class="header__title">
+            <h1>Только самая <span>лучшая кухня!</span></h1>
+            <p>Бесплатная доставка от 599₽</p>
+          </div>
+          <div class="header__image">
+            <img src="icons/burger.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <nav class="navi">
+        <div class="navi__container">
+          <ul class="navi__list">
+            <li class="navi__item">
+              <a class="navi__button burger">Бургеры</a>
+            </li>
+            <li class="navi__item">
+              <a class="navi__button snatch">Закуски</a>
+            </li>
+            <li class="navi__item">
+              <a class="navi__button hot-dog">Хот-доги</a>
+            </li>
+            <li class="navi__item"><a class="navi__button combo">Комбо</a></li>
+            <li class="navi__item">
+              <a class="navi__button shawerma">Шаурма</a>
+            </li>
+            <li class="navi__item"><a class="navi__button pizza">Пицца</a></li>
+            <li class="navi__item"><a class="navi__button vok">Вок</a></li>
+            <li class="navi__item">
+              <a class="navi__button desserts">Десерты</a>
+            </li>
+            <li class="navi__item"><a class="navi__button sauces">Соусы</a></li>
+          </ul>
+        </div>
+      </nav>
+      <section class="catalog">
+        <div class="section__container">
+          <div class="catalog__cart cart cart-open">
+            <div class="cart__wrapper">
+              <div class="cart__title">
+                <h2>Корзина</h2>
+                <span>4</span>
+              </div>
+              <div class="cart__list">
+                <ul class="list__order">
+                  <li class="list__item">
+                    <img src="img/supercheese.jpg" alt="сырный" />
+                    <div class="item__description">
+                      <h3 class="item__title">Супер сырный</h3>
+                      <span class="item__weight">512г</span>
+                      <span class="item__price">550₽</span>
+                    </div>
+                    <div class="item__count count">
+                      <button class="count__minus">-</button>
+                      <span class="count__amount">1</span>
+                      <button class="count__plus">+</button>
+                    </div>
+                  </li>
+                  <li class="list__item">
+                    <img src="img/burninghotdog.jpg" alt="Жгучий хот-дог" />
+                    <div class="item__description">
+                      <h3 class="item__title">Жгучий хот-дог</h3>
+                      <span class="item__weight">245г</span>
+                      <span class="item__price">239₽</span>
+                    </div>
+                    <div class="item__count count">
+                      <button class="count__minus">-</button>
+                      <span class="count__amount">2</span>
+                      <button class="count__plus">+</button>
+                    </div>
+                  </li>
+                  <li class="list__item">
+                    <img src="img/fri.jpg" alt="Картошка фри" />
+                    <div class="item__description">
+                      <h3 class="item__title">Картошка фри</h3>
+                      <span class="item__weight">180г</span>
+                      <span class="item__price">245₽</span>
+                    </div>
+                    <div class="item__count count">
+                      <button class="count__minus">-</button>
+                      <span class="count__amount">1</span>
+                      <button class="count__plus">+</button>
+                    </div>
+                  </li>
+                </ul>
+                <div class="list__summ">
+                  <span class="total">Итого</span>
+                  <span class="number">1279₽</span>
+                </div>
+                <button class="cart__submit">Оформить заказ</button>
+                <div class="cart__delivery">
+                  <p>Бесплатная доставка</p>
+                  <button class="list__close">Свернуть</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="catalog__products products">
+            <h2 class="products__title">Бургеры</h2>
+            <div class="products__list">
+              <ul class="list__goods">
+                <li class="goods__item">
+                  <div class="item__wrapper">
+                    <img src="img/photo-5.jpg" alt="Мясная бомба" />
+                    <span class="product__price">689₽</span>
+                    <h3 class="product_title">
+                      <button class="product_btn">Мясная бомба</button>
+                    </h3>
+                    <span class="product__weight">520г</span>
+                    <button class="product__add">Добавить</button>
+                  </div>
+                </li>
+                <li class="goods__item">
+                  <div class="item__wrapper">
+                    <img src="img/photo-1.jpg" alt="Супер сырный" />
+                    <span class="product__price">550₽</span>
+                    <h3 class="product_title">
+                      <button class="product_btn">Супер сырный</button>
+                    </h3>
+                    <span class="product__weight">512г</span>
+                    <button class="product__add">Добавить</button>
+                  </div>
+                </li>
+                <li class="goods__item">
+                  <div class="item__wrapper">
+                    <img src="img/photo-3.jpg" alt="Сытный" />
+                    <span class="product__price">639₽</span>
+                    <h3 class="product_title">
+                      <button class="product_btn">Сытный</button>
+                    </h3>
+                    <span class="product__weight">580г</span>
+                    <button class="product__add">Добавить</button>
+                  </div>
+                </li>
+                <li class="goods__item">
+                  <div class="item__wrapper">
+                    <img src="img/photo.jpg" alt="Тяжелый удар" />
+                    <span class="product__price">480₽</span>
+                    <h3 class="product_title">
+                      <button class="product_btn">Тяжелый удар</button>
+                    </h3>
+                    <span class="product__weight">470г</span>
+                    <button class="product__add">Добавить</button>
+                  </div>
+                </li>
+                <li class="goods__item">
+                  <div class="item__wrapper">
+                    <img src="img/photo-2.jpg" alt="Вечная классика" />
+                    <span class="product__price">450₽</span>
+                    <h3 class="product_title">
+                      <button class="product_btn">Вечная классика</button>
+                    </h3>
+                    <span class="product__weight">450г</span>
+                    <button class="product__add">Добавить</button>
+                  </div>
+                </li>
+                <li class="goods__item">
+                  <div class="item__wrapper">
+                    <img src="img/photo-4.jpg" alt="Итальянский" />
+                    <span class="product__price">560₽</span>
+                    <h3 class="product_title">
+                      <button class="product_btn">Итальянский</button>
+                    </h3>
+                    <span class="product__weight">510г</span>
+                    <button class="product__add">Добавить</button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <img class="footer__logo" src="icons/logofooterMAIN.svg" alt="" />
+        <div class="footer__connect connect">
+          <div class="connect__phone">
+            <h2>Номер для заказа</h2>
+            <a class="phone__number" href="tel:+70655506361">+7(065)550-63-61</a>
+          </div>
+          <div class="connect_social">
+            <h2>Мы в соцсетях</h2>
+            <div class="social__icons">
+              <a href="#"><img src="icons/entypo-social_vk-with-circle.svg" alt="Vk" /></a>
+              <a href="#"><img src="icons/bi_telegram.svg" alt="telegram" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <p>&#169; Nourishs, 2022</p>
+          <p>Design: Anastasia Ivanova</p>
+        </div>
+      </div>
+    </footer>
+    <div class="modal">
+      <div class="modal__main modal-content">
+        <div class="modal-content__wrapper">
+          <h2 class="modal-content__title">Мясная бомба</h2>
+          <div class="modal-content__image">
+            <img src="img/photo-5.jpg" alt="Мясная бомба" />
+          </div>
+          <div class="modal-content__text">
+            <p class="modal-content__description">
+              Супер мясное наслаждение! Большая рубленая котлета из свежего говяжего мяса покорит вас своей сочностью, а хрустящие листья салата добавят свежести.
+            </p>
+            <div class="modal-content__composition composition">
+              <h3>Состав:</h3>
+              <ul class="composition__list">
+                <li class="composition__list__item">Пшеничная булочка</li>
+                <li class="composition__list__item">Котлета из говядины</li>
+                <li class="composition__list__item">Красный лук</li>
+                <li class="composition__list__item">Листья салата</li>
+                <li class="composition__list__item">Соус горчичный</li>
+              </ul>
+              <p class="composition__calories">520г, ккал 430</p>
+            </div>
+          </div>
+
+          <div class="modal-content__footer">
+            <div class="modal-content__addcount">
+              <button class="modal-content__btn">Добавить</button>
+              <div class="count">
+                <button class="count__minus">-</button>
+                <span class="count__amount">1</span>
+                <button class="count__plus">+</button>
+              </div>
+            </div>
+            <span class="modal-content__price">689₽</span>
+          </div>
+          <button class="modal-content__close">
+            <img src="icons/close.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-delivery">
+      <div class="modal__main modal__delivery">
+        <div class="modal__delivery__wrapper">
+          <h2 class="modal__delivery__title">Доставка</h2>
+          <form class="modal__delivery__forms" id="delivery">
+            <fieldset class="modal__delivery__fieldset">
+              <input class="modal__delivery__input" type="text" placeholder="Ваше имя" />
+              <input class="modal__delivery__input" type="tel" placeholder="Телефон" />
+            </fieldset>
+            <fieldset class="modal__delivery__fieldset modal__delivery__fieldset_radio">
+              <label class="modal__delivery__label"><input class="modal__delivery__radio" type="radio" value="pickup" name="option" checked />Самовывоз</label>
+              <label class="modal__delivery__label"><input class="modal__delivery__radio" type="radio" value="delivery" name="option" />Доставка</label>
+            </fieldset>
+            <fieldset class="modal__delivery__fieldset hidden">
+              <input class="modal__delivery__input" type="text" placeholder="Улица, дом, квартира" />
+              <input class="modal__delivery__input half" type="number" placeholder="Этаж" />
+              <input class="modal__delivery__input half" type="number" placeholder="Домофон" />
+            </fieldset>
+          </form>
+          <button class="modal__delivery__submit" form="delivery">Оформить</button>
+          <button class="modal-content__close delivery__close">
+            <img src="icons/close.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

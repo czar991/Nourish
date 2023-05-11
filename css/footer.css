@@ -1,0 +1,136 @@
+.footer {
+  background-color: #ffffff;
+}
+.footer__container {
+  padding: 24px 10px;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.footer__logo {
+  width: 196px;
+  margin-bottom: 24px;
+}
+.connect {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 34px;
+}
+.connect__phone h2 {
+  font-size: 18px;
+  line-height: 100%;
+  margin-bottom: 8px;
+}
+.phone__number {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 28px;
+  background-image: url(../icons/Call.svg);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center left;
+  font-size: 12px;
+  line-height: 130%;
+  height: 24px;
+  color: #000000;
+}
+
+.connect_social h2 {
+  font-size: 18px;
+  line-height: 100%;
+  margin-bottom: 8px;
+}
+.social__icons {
+  display: flex;
+  gap: 16px;
+}
+.footer__copyright {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+  line-height: 16px;
+}
+@media (min-width: 768px) {
+  .footer__container {
+    padding: 24px 64px;
+  }
+  .connect {
+    flex-direction: row;
+    gap: 177px;
+    margin-bottom: 40px;
+  }
+  .footer__logo {
+    margin-bottom: 36px;
+  }
+}
+@media (min-width: 1024px) {
+  .footer__container {
+    padding: 44px 32px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .footer__logo {
+    width: 300px;
+    margin-bottom: 0;
+  }
+  .connect {
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 35px;
+  }
+  .connect__phone h2 {
+    font-size: 24px;
+    line-height: 100%;
+    margin-bottom: 24px;
+  }
+  .phone__number {
+    font-size: 16px;
+  }
+
+  .connect_social h2 {
+    font-size: 24px;
+    margin-bottom: 22px;
+  }
+  .footer__copyright {
+    flex-basis: 100%;
+  }
+}
+@media (min-width: 1440px) {
+  .footer__container {
+    padding: 48px 75px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .footer__logo {
+    width: 300px;
+    margin-bottom: 0;
+  }
+  .connect {
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 35px;
+    width: 50%;
+  }
+  .connect__phone h2 {
+    font-size: 24px;
+    line-height: 100%;
+    margin-bottom: 24px;
+  }
+  .phone__number {
+    font-size: 16px;
+  }
+
+  .connect_social h2 {
+    font-size: 24px;
+    margin-bottom: 22px;
+  }
+  .footer__copyright {
+    flex-basis: 100%;
+  }
+}

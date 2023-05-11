@@ -1,0 +1,111 @@
+.navi {
+  margin-bottom: 30px;
+}
+.navi__container {
+  padding: 0 10px;
+  min-width: 100vw;
+}
+.navi__list {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 10px 2px;
+}
+.navi__button {
+  background: #fff;
+  border-radius: 50px;
+  padding: 7px 8px 7px 40px;
+  font-size: 12px;
+  line-height: 16px;
+  white-space: nowrap;
+  color: #000000;
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: 8px center;
+  cursor: pointer;
+}
+.navi__button:hover {
+  outline: 1px solid #f86310;
+}
+.navi__button:active {
+  background-color: #ffab08;
+}
+.navi__button.burger {
+  background-image: url(../icons/cheeseburger.svg);
+}
+.navi__button.snatch {
+  background-image: url(../icons/snatch.svg);
+}
+.navi__button.hot-dog {
+  background-image: url(../icons/hot-dof.svg);
+}
+.navi__button.combo {
+  background-image: url(../icons/combo.svg);
+}
+.navi__button.shawerma {
+  background-image: url(../icons/shawerma.svg);
+}
+.navi__button.pizza {
+  background-image: url(../icons/pizza.svg);
+}
+.navi__button.vok {
+  background-image: url(../icons/vok.svg);
+}
+.navi__button.desserts {
+  background-image: url(../icons/donut.svg);
+}
+.navi__button.sauces {
+  background-image: url(../icons/ketchup.svg);
+}
+
+@media (min-width: 768px) {
+  .navi__container {
+    padding: 0 64px;
+    min-width: 100vw;
+  }
+  .navi__list {
+    gap: 12px;
+  }
+}
+@media (min-width: 1024px) {
+  .navi {
+    margin-bottom: 50px;
+  }
+  .navi__container {
+    padding: 0 32px;
+    min-width: 100vw;
+  }
+  .navi__list {
+    gap: 24px;
+  }
+  .navi__button {
+    padding: 9px 14px 9px 46px;
+    font-size: 16px;
+    line-height: 22px;
+    background-position: 14px center;
+  }
+}
+@media (min-width: 1440px) {
+  .navi {
+    margin-bottom: 50px;
+  }
+  .navi__container {
+    padding: 0 75px;
+    min-width: 100vw;
+  }
+  .navi__list {
+    gap: 24px;
+  }
+  .navi__button {
+    padding: 9px 14px 9px 46px;
+    font-size: 16px;
+    line-height: 22px;
+    background-position: 14px center;
+  }
+  @media (min-width: 1441px) {
+    .navi__list {
+      justify-content: center;
+    }
+  }
+}
