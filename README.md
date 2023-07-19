@@ -1,4 +1,4 @@
 # Nourish
-Статичный одностраничник
+Лендинг
 
 Дэмо - https://czar991.github.io/Nourish/
